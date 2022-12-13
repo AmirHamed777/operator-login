@@ -1,0 +1,28 @@
+body{
+    background-image: url(HOOPTRACE.jpeg);
+    }
+#ButtonCSS{
+    background-color: rgb(53, 255, 104);
+border-color: rgb(20, 168, 0);
+}
+#badgeNumber{
+    background-color: rgb(196, 193, 193);
+}
+#lastName{
+    background-color: rgb(196, 193, 193);
+}
+#firstName{
+    background-color: rgb(196, 193, 193);
+}
+h1 
+{
+    color: white;
+}
+h2 
+{
+    color: blue;
+}
+p
+{
+    color: white;
+}

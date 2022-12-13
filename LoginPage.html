@@ -1,0 +1,45 @@
+<!--Amir Hamed 
+Login Page
+CSC102-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--this is the line of code where i attached the CSS and JS files to calibrate functions, colors, and button display-->
+    <link rel="stylesheet" type="text/css" href="112822.css">
+    <script src="function checkCreds().js"></script>
+    <!--Title of the website name-->
+    <title>Login Page</title>
+</head>
+<body>
+    <!--this is the primary title of the page!-->
+    <center>
+    <h1> UAT Space Page Login</h1>
+    </center>
+    <br>
+    <!--this is the line of code that is updated on the website that shows log in status-->
+    <p id="LoginStatus" class="loginID">Login Status</p>
+    <br>
+    <!--this is the line of code for the first name text box entry-->
+    <h2>First Name:</h2><input = "text" id="firstName" />
+    <br>
+    <!--this is the line of code for the last name text box entry-->
+    <h2>Last Name:</h2> <input = "text" id="lastName" />
+    <br>
+    <!--this is the line of code for the badge number text box entry-->
+    <h2>Badge Number:</h2> <input = "number" id="badgeNumber" />
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--this is the line of code that registers the log in button and identifies its function once clicked-->
+    <center>
+    <button id="ButtonCSS"onclick="checkCreds()">Login</button>
+    </center>
+ 
+    </form>
+</body>
+</html>
